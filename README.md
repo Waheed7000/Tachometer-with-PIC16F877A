@@ -68,8 +68,9 @@ In addition to real-time monitoring, users can remotely:
 - Includes `.apk` file for installation
 
 <br>
-<img src="images/Bloks1.jpg" width="600" /> <img src="images/Bloks2.jpg" width="600" /> <br>
-<img src="images/Bloks3.jpg" width="600" />
+<img src="images/Bloks1.jpg" width="650" /> 
+<img src="images/Bloks2.jpg" width="650" />
+<img src="images/Bloks3.jpg" width="650" />
 
 - 📷 MIT app inventor Bloks 
 
