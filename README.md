@@ -76,7 +76,7 @@ In addition to real-time monitoring, users can remotely:
 
 
 <br>
-<img src="images/app_screenshot.jpg" style="max-width: 100%; height: auto;"/>
+<img src="images/screenshot.jpg" style="max-width: 100%; height: auto;"/>
 
 - 📷 Screenshot from the app
 
