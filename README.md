@@ -65,7 +65,7 @@ In addition to real-time monitoring, users can remotely:
 - Connects to the microcontroller via Bluetooth
 - Displays real-time RPM
 - Allows full remote control (start/stop/speed)
-- Includes `.apk` file for installation
+- Includes `.apk` file for installation and `.aia` source file
 
 <br>
 <img src="images/Bloks1.jpg" width="650" /> 
@@ -99,9 +99,9 @@ Where:
 | File / Folder | Description |
 |---------------|-------------|
 | `code/tachometer src` | Source code for the PIC (in MikroC) |
-| `app` | `.apk` for Android app |
+| `app/Techometer Mobile App` | `.apk` and `.aia` files for Android app |
 | `images/images` | Project photos, schematic, screenshots |
-| `schematic` | Project schematic daigram using proteus  |
+| `schematic` | Project schematic daigram using proteus |
 | `README.md` | Project documentation |
 | `LICENSE` | MIT License |
 | `*.hex/tachometer src` | Compiled firmware |
