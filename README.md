@@ -1,3 +1,4 @@
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
 # Tachometer-with-PIC16F877A
 
 This project implements a **tachometer** system using the **PIC16F877A microcontroller** to measure and monitor the RPM (revolutions per minute) of a DC motor with high accuracy. The RPM is displayed on a 16x2 LCD and transmitted via **UART protocol** to an Android application built using **MIT App Inventor**.
@@ -79,6 +80,48 @@ In addition to real-time monitoring, users can remotely:
 <img src="images/screenshot.jpg" style="max-width: 100%; height: auto;"/>
 
 - 📷 Screenshot from the app
+
+### 📲 App Usage & Features
+
+The mobile app offers a user-friendly interface to monitor and control the motor in real-time via Bluetooth. Below is a breakdown of its setup, interface, and capabilities:
+
+#### 🔧 Initial Setup
+
+1. **Enable Bluetooth** on your Android device.
+2. Pair it with your Bluetooth module (usually named `HC-05`).
+   - Default PIN: `1234` or `0000`
+3. Open the app and tap **"Available devices"**.
+4. A new screen will appear showing all paired devices. Select your module to establish a connection.
+
+> 💡 **Tip:**  
+> You can rename your Bluetooth module or change its password using **AT Commands** in AT mode via an Arduino.  
+> [🔗 Learn how to enter AT mode and send commands](https://www.martyncurrey.com/arduino-with-hc-05-bluetooth-module-at-mode/)
+
+#### 🎛️ App Interface Overview
+
+- **Live Data Display**
+  - RPM (Revolutions Per Minute)
+  - Total Revolutions
+  - PWM Duty Cycle (%)
+
+- **Motor Control**
+  - Power button (ON/OFF)
+  - Mode switch to toggle between:
+    - Physical control using a potentiometer
+    - App-based PWM control
+  - Two buttons to increase (+) or decrease (−) motor speed
+
+- **Data Tools**
+  - **Reset Counter**: Resets the revolutions counter, useful for fresh testing intervals.
+  - **Lap Button**: Captures the current RPM and revolution values at a specific time.  
+    You can use this to compare RPM after a certain duration (e.g., 1 minute).
+
+### ⭐ App Highlights
+
+- 🔌 **Wireless Control**: Start, stop, and adjust speed remotely via Bluetooth
+- 🔄 **Dual PWM Control Modes**: Choose between physical and app-based control
+- 📊 **Real-Time Monitoring**: Accurate and stable display of motor RPM and revolutions
+- 🧪 **Performance Testing Tools**: Revolution reset and lap logging features for data analysis
 
 ---
 
