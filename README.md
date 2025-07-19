@@ -159,11 +159,11 @@ Tachometer with PIC16F877A/
 │   |   ├── Encoder_disk.jpg
 │   |   ├── Photoelectric_encoder.jpg
 │   |   └── TT_Motor.jpg
-|   ├── MITblocks
+|   ├── MITblocks/
 |   |   ├── Bloks1.jpg
 |   |   ├── Bloks2.jpg
 |   |   └── Bloks3.jpg
-|   ├── MobileApp
+|   ├── MobileApp/
 │   |   ├── AppQRcode.jpg
 │   |   ├── screenshot.jpg
 │   └── Tachometer.jpg
