@@ -165,6 +165,12 @@ Where:
 
 ---
 
+## 👥 Team Members
+
+- **Ahmed Waheed**   
+
+---
+
 ## 📜 License
 
 This project is released under the [MIT License](LICENSE) — feel free to use, modify, and share with proper attribution.
