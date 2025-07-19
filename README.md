@@ -43,17 +43,17 @@ In addition to real-time monitoring, users can remotely:
 - `*` Plenty of Jumper Wires 
 
 <br><br>
-<img src="images/TT_Motor.jpg" width="200" />
+<img src="images/Components/TT_Motor.jpg" width="300" />
 <br>
 📷 Geared Motor Photo
 
 <br><br>
-<img src="images/Photoelectric_encoder.jpg" width="200" />
+<img src="images/Components/Photoelectric_encoder.jpg" width="300" />
 <br>
 📷 Photoelectric encoder Photo
 
 <br><br>
-<img src="images/Encoder_disk.jpg" width="200" />
+<img src="images/Components/Encoder_disk.jpg" width="300" />
 <br>
 📷 Encoder Disk Photo
 
@@ -74,17 +74,26 @@ In addition to real-time monitoring, users can remotely:
 - Includes `.apk` file for installation and `.aia` source file
 
 <br><br>
-<img src="images/Bloks1.jpg" width="650" /> 
-<img src="images/Bloks2.jpg" width="650" />
-<img src="images/Bloks3.jpg" width="650" />
+<img src="images/MITblocks/Bloks1.jpg" width="650" /> 
+<img src="images/MITblocks/Bloks2.jpg" width="650" />
+<img src="images/MITblocks/Bloks3.jpg" width="650" />
 <br>
 📷 MIT app inventor Bloks 
 
 
 <br><br>
-<img src="images/screenshot.jpg" style="max-width: 100%; height: auto;"/>
+<img src="images/MobileApp/screenshot.jpg" style="max-width: 100%; height: auto;"/>
 <br>
 📷 Screenshot from the app
+
+### 📥 Download the App
+
+Scan the QR code below to download the APK from my drive:
+
+<img src="images/MobileApp/AppQRcode.jpg" width="250"/>
+
+> 🔗 Or click [here](https://drive.google.com/drive/folders/1uMTk8APghZmzyFvr8DgvHVg_q9328N2L?usp=sharing)
+
 
 ### 📲 App Usage & Features
 
@@ -142,17 +151,34 @@ Where:
 
 ---
 
-## 📂 Included Files
-
-| File / Folder | Description |
-|---------------|-------------|
-| `code/tachometer src` | Source code for the PIC (in MikroC) |
-| `app/Techometer Mobile App` | `.apk` and `.aia` files for Android app |
-| `images/images` | Project photos, schematic, screenshots |
-| `schematic` | Project schematic daigram using proteus |
-| `README.md` | Project documentation |
-| `LICENSE` | MIT License |
-| `*.hex/tachometer src` | Compiled firmware |
+## 📁 Repository Structure
+<pre>
+Tachometer with PIC16F877A/
+├── images/
+|   ├── Components/
+│   |   ├── Encoder_disk.jpg
+│   |   ├── Photoelectric_encoder.jpg
+│   |   └── TT_Motor.jpg
+|   ├── MITblocks
+|   |   ├── Bloks1.jpg
+|   |   ├── Bloks2.jpg
+|   |   └── Bloks3.jpg
+|   ├── MobileApp
+│   |   ├── AppQRcode.jpg
+│   |   ├── screenshot.jpg
+│   └── Tachometer.jpg
+├── tachometer src/
+│   ├── Techometer_Src.asm
+│   ├── Techometer_Src.c
+│   ├── Techometer_Src.hex
+│   └── Techometer_Src.mcppi
+├── Techometer Mobile App/
+│   ├── Tachometer App.apk
+│   └── Tachometer MIT app inventor Project.aia
+├── LICENSE
+├── README.md
+└── Tachometer schematic diagram.pdf
+</pre>
 
 ---
 
