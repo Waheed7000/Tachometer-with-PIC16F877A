@@ -1,5 +1,7 @@
+# Tachometer with PIC16F877A
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
-# Tachometer-with-PIC16F877A
+![Status](https://img.shields.io/badge/status-complete-brightgreen)
+
 
 This project implements a **tachometer** system using the **PIC16F877A microcontroller** to measure and monitor the RPM (revolutions per minute) of a DC motor with high accuracy. The RPM is displayed on a 16x2 LCD and transmitted via **UART protocol** to an Android application built using **MIT App Inventor**.
 
@@ -39,18 +41,21 @@ In addition to real-time monitoring, users can remotely:
 - 10μF Capacitors  
 - `*` Multiple Resistors: 10K, 1.8K, 1.3K, 150Ω  
 - `*` Plenty of Jumper Wires 
-<br>
-  <img src="images/TT_Motor.jpg" width="200" />
 
-- 📷 Geared Motor Photo
+<br><br>
+<img src="images/TT_Motor.jpg" width="200" />
 <br>
-  <img src="images/Photoelectric_encoder.jpg" width="200" />
+📷 Geared Motor Photo
 
-- 📷 Photoelectric encoder Photo
+<br><br>
+<img src="images/Photoelectric_encoder.jpg" width="200" />
 <br>
+📷 Photoelectric encoder Photo
+
+<br><br>
 <img src="images/Encoder_disk.jpg" width="200" />
-
-- 📷 Encoder Disk Photo
+<br>
+📷 Encoder Disk Photo
 
 ---
 
@@ -68,18 +73,18 @@ In addition to real-time monitoring, users can remotely:
 - Allows full remote control (start/stop/speed)
 - Includes `.apk` file for installation and `.aia` source file
 
-<br>
+<br><br>
 <img src="images/Bloks1.jpg" width="650" /> 
 <img src="images/Bloks2.jpg" width="650" />
 <img src="images/Bloks3.jpg" width="650" />
-
-- 📷 MIT app inventor Bloks 
-
-
 <br>
-<img src="images/screenshot.jpg" style="max-width: 100%; height: auto;"/>
+📷 MIT app inventor Bloks 
 
-- 📷 Screenshot from the app
+
+<br><br>
+<img src="images/screenshot.jpg" style="max-width: 100%; height: auto;"/>
+<br>
+📷 Screenshot from the app
 
 ### 📲 App Usage & Features
 
@@ -137,7 +142,7 @@ Where:
 
 ---
 
-## 🧾 Included Files
+## 📂 Included Files
 
 | File / Folder | Description |
 |---------------|-------------|
@@ -153,14 +158,14 @@ Where:
 
 ## ⚠️ Notes for Replication
 
-- Make sure to add a **voltage divider** (using 1.8K and 1.3K resistors) on the RX pin of the Bluetooth module to avoid damaging it.
+- Make sure to add a **voltage divider** (using 1.8K and 3.3K resistors) on the RX pin of the Bluetooth module to avoid damaging it.
 - It is recommended to install a **heatsink** on the 7805 voltage regulator.
 - Ensure **proper capacitor values** are used around the regulator for power stability.
 - Double-check the orientation of all polarized components (diodes, electrolytic capacitors, etc.)
 
 ---
 
-## License
+## 📜 License
 
 This project is released under the [MIT License](LICENSE) — feel free to use, modify, and share with proper attribution.
 
