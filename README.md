@@ -195,7 +195,7 @@ Tachometer with PIC16F877A/
 
 - **Ahmed Waheed**   
 - **Eslam Dahy**  
-- **Mazen Mohamed**  
+- **[Mazen Mohamed](https://github.com/mazenmuhamed14)**
 
 ---
 
