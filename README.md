@@ -193,8 +193,8 @@ Tachometer with PIC16F877A/
 
 ## 👥 Team Members
 
-- **Ahmed Waheed**   
-- **Eslam Dahy**  
+- **[Ahmed Waheed](https://github.com/Waheed7000)**   
+- **[Eslam Dahy](https://github.com/EslamMDahy)**  
 - **[Mazen Mohamed](https://github.com/mazenmuhamed14)**
 
 ---
