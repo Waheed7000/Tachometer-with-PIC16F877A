@@ -165,7 +165,7 @@ Tachometer with PIC16F877A/
 |   |   └── Bloks3.jpg
 |   ├── MobileApp/
 │   |   ├── AppQRcode.jpg
-│   |   ├── screenshot.jpg
+│   |   └── screenshot.jpg
 │   └── Tachometer.jpg
 ├── tachometer src/
 │   ├── Techometer_Src.asm
